@@ -1,4 +1,4 @@
-import { courses } from '@/data/courses'
+import { courses } from '@/config/data/courses'
 import { CourseCard } from './CourseCard'
 
 export function Course() {
