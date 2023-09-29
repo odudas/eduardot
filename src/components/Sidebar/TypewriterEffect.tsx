@@ -14,7 +14,7 @@ export function TypewriterEffect() {
 
   return (
     <div>
-      <span className="leading-none text-zinc-600 font-medium">{text}</span>
+      <span className="font-medium leading-none text-zinc-600">{text}</span>
       <Cursor cursorBlinking />
     </div>
   )

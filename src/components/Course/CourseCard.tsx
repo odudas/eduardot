@@ -25,7 +25,7 @@ export function CourseCard({ course }: CourseCardProps) {
       />
 
       <div className="col flex flex-col">
-        <h2 className="font-semibold text-zinc-800 text-2xl">
+        <h2 className="text-2xl font-semibold text-zinc-800">
           {course.institutionName}
         </h2>
         <p className="text-lg">
