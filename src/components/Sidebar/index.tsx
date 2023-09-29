@@ -5,7 +5,7 @@ import { Github, Linkedin } from 'lucide-react'
 
 export function Sidebar() {
   return (
-    <aside className="flex flex-col gap-6 border-zinc-300 p-4 right-auto border-r px-5 py-8">
+    <aside className="right-auto flex flex-col gap-6 border-r border-zinc-300 p-4 px-5 py-8">
       <Logo />
 
       <Profile />
