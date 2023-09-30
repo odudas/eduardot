@@ -1,5 +1,13 @@
 export const courses = [
   {
+    institutionLogo: 'univesp.png',
+    alt: 'Logo da UNIVESP, um quadrado cinza com bordas levemente arredondadas e uma letra V na cor vermelha ao centro deste quadrado.',
+    institutionName: 'Univ. Virtual do Estado de São Paulo',
+    education: 'Bacharelado',
+    trail: 'Sistemas de Informação',
+    duration: 'jun. 2023 - jul. 2026',
+  },
+  {
     institutionLogo: 'rocketseat.png',
     alt: 'Logo da Rocketseat, um quadrado preto com bordas levemente arredondadas e um foguete roxo ao centro deste quadrado.',
     institutionName: 'Rocketseat',
