@@ -2,7 +2,7 @@ export const courses = [
   {
     institutionLogo: 'univesp.png',
     alt: 'Logo da UNIVESP, um quadrado cinza com bordas levemente arredondadas e uma letra V na cor vermelha ao centro deste quadrado.',
-    institutionName: 'Univ. Virtual do Estado de São Paulo',
+    institutionName: 'Universidade Virtual do Estado de São Paulo',
     education: 'Bacharelado',
     trail: 'Sistemas de Informação',
     duration: 'jun. 2023 - jul. 2026',
@@ -22,6 +22,39 @@ export const courses = [
     education: 'Curso complementar',
     trail: 'Ignite React.Js',
     duration: 'jun. 2023 - ago. 2023',
+
+    projectName: [
+      'Projeto #01 - Ignite Feed',
+      'Projeto #02 - Ignite Timer',
+      'Projeto #03 - DT Money',
+      'Projeto #04 - Ignite Shop',
+      'Projeto #05 - Design System',
+      'Projeto #06 - Ignite Call',
+    ],
+    projectFigma: [
+      'https://www.figma.com/file/Vr8OBWlcJ2ur5679ji1gFv/Ignite-Feed?type=design&mode=design&t=NrLpFjWDma3VVBPM-1',
+      'https://www.figma.com/file/jGeR6Va0mVR8QAfSYLm1wY/Ignite-Timer?type=design&t=nVjMUbqqaB3U54lh-6',
+      'https://www.figma.com/file/cPGl3vODlzwgCxlAz94XRU/DT-Money?type=design&t=yZ9G2ovMHqQ79LT0-6',
+      'https://www.figma.com/file/QrfrQ5tjLVQuKPOUh83DfL/Ignite-Shop?type=design&node-id=2-12&mode=design&t=yZ9G2ovMHqQ79LT0-0',
+      'https://www.figma.com/file/GfEcYBkezApa7IuXjzw6LY/Ignite-Call?type=design&node-id=0-1&mode=design&t=yZ9G2ovMHqQ79LT0-0',
+      'https://www.figma.com/file/GfEcYBkezApa7IuXjzw6LY/Ignite-Call?type=design&node-id=0-1&mode=design&t=yZ9G2ovMHqQ79LT0-0',
+    ],
+    projectGitHub: [
+      'https://github.com/odudas/igniteReact-projeto_01',
+      'https://github.com/odudas/igniteReact-projeto_02',
+      'https://github.com/odudas/igniteReact-projeto_03',
+      'https://github.com/odudas/igniteReact-projeto_04',
+      'https://github.com/odudas/igniteReact-projeto_05',
+      'https://github.com/odudas/igniteReact-projeto_06',
+    ],
+    projectDeploy: [
+      'https://odudas.github.io/igniteReact-projeto_01/',
+      'https://odudas.github.io/igniteReact-projeto_02/',
+      'https://odudas.github.io/igniteReact-projeto_03/',
+      'https://odudas.github.io/igniteReact-projeto_04/',
+      'https://odudas.github.io/igniteReact-projeto_05/',
+      'https://odudas.github.io/igniteReact-projeto_06/',
+    ],
   },
   {
     institutionLogo: 'alura.jpeg',
