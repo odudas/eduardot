@@ -14,6 +14,11 @@ export const courses = [
     education: 'Curso complementar',
     trail: 'Ignite Node.Js',
     duration: 'jun. 2023 - dez. 2023',
+
+    projectName: [
+      'Projeto #01 - Fundamentos do Node.Js ',
+      'Projeto #02 - Criando API REST com Node.Js',
+    ],
   },
   {
     institutionLogo: 'rocketseat.png',
