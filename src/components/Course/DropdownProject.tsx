@@ -1,18 +1,18 @@
 import { Figma, Github, Layout } from 'lucide-react'
 
-export interface DropdownCardProps {
+export interface DropdownProjectProps {
   projectName: string
   projectFigma: string
   projectGitHub: string
   projectDeploy: string
 }
 
-export function DropdownCard({
+export function DropdownProject({
   projectName,
   projectFigma,
   projectGitHub,
   projectDeploy,
-}: DropdownCardProps) {
+}: DropdownProjectProps) {
   return (
     <div className="mt-4 border-t border-gray-300 pt-2">
       <h3 className="mb-5 mt-2 text-lg font-semibold">{projectName}</h3>

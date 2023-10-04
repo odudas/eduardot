@@ -4,7 +4,7 @@ import Image from 'next/image'
 import * as Collapsible from '@radix-ui/react-collapsible'
 import { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
-import { DropdownCard } from './DropdownCard'
+import { DropdownProject } from './DropdownProject'
 
 export interface Course {
   institutionLogo: string
@@ -64,7 +64,7 @@ export function CourseCard({ course }: CourseCardProps) {
         {course.projectName && course.projectName.length > 0 && (
           <div className="grid grid-cols-2">
             {course.projectName.map((project, index) => (
-              <DropdownCard
+              <DropdownProject
                 key={project}
                 projectName={project}
                 projectFigma={
