@@ -1,4 +1,5 @@
 export const courses = [
+  // UNIVESP
   {
     institutionLogo: 'univesp.png',
     alt: 'Logo da UNIVESP, um quadrado cinza com bordas levemente arredondadas e uma letra V na cor vermelha ao centro deste quadrado.',
@@ -7,6 +8,27 @@ export const courses = [
     trail: 'Sistemas de Informação',
     duration: 'jun. 2023 - jul. 2026',
   },
+
+  // Rocketseat REACT NATIVE
+  {
+    institutionLogo: 'rocketseat.png',
+    alt: 'Logo da Rocketseat, um quadrado preto com bordas levemente arredondadas e um foguete roxo ao centro deste quadrado.',
+    institutionName: 'Rocketseat',
+    education: 'Curso complementar',
+    trail: 'Ignite React Native',
+    duration: 'jun. 2023 - dez. 2023',
+
+    projectName: ["Projeto #01 - I'm Here ", 'Projeto #02 - Ignite Teams'],
+
+    projectFigma: [
+      '',
+      'https://www.figma.com/file/ke9DZTwVGXni6kq4Jqvq3F/Ignite-Teams?type=design&t=7GnJUruVHR0rcUHn-6',
+    ],
+
+    projectGitHub: ['https://github.com/odudas/igniteReactNative-projeto_01'],
+  },
+
+  // Rocketseat NODE
   {
     institutionLogo: 'rocketseat.png',
     alt: 'Logo da Rocketseat, um quadrado preto com bordas levemente arredondadas e um foguete roxo ao centro deste quadrado.',
@@ -20,6 +42,8 @@ export const courses = [
       'Projeto #02 - Criando API REST com Node.Js',
     ],
   },
+
+  // Rocketseat REACT
   {
     institutionLogo: 'rocketseat.png',
     alt: 'Logo da Rocketseat, um quadrado preto com bordas levemente arredondadas e um foguete roxo ao centro deste quadrado.',
@@ -27,6 +51,8 @@ export const courses = [
     education: 'Curso complementar',
     trail: 'Ignite React.Js',
     duration: 'jun. 2023 - ago. 2023',
+    certifiedLink:
+      'https://app.rocketseat.com.br/certificates/7a4944a1-9f21-4312-b357-205e88c7d7a3',
 
     projectName: [
       'Projeto #01 - Ignite Feed',
@@ -61,6 +87,8 @@ export const courses = [
       'https://odudas.github.io/igniteReact-projeto_06/',
     ],
   },
+
+  // ALURA
   {
     institutionLogo: 'alura.jpeg',
     alt: 'Logo da Alura, um quadrado azul escuro com bordas levemente arredondadas e a letra A branca ao centro deste quadrado.',
