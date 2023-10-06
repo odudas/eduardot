@@ -5,6 +5,7 @@ import * as Collapsible from '@radix-ui/react-collapsible'
 import { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'lucide-react'
 import { DropdownProject } from './DropdownProject'
+import { CertificateButton } from './CertificateButton'
 
 export interface Course {
   institutionLogo: string
@@ -13,6 +14,7 @@ export interface Course {
   education: string
   trail: string
   duration: string
+  certifiedLink: string
   projectName?: string[]
   projectFigma?: string[]
   projectGitHub?: string[]
@@ -47,6 +49,10 @@ export function CourseCard({ course }: CourseCardProps) {
           <span className="text-sm font-medium text-zinc-600">
             {course.duration}
           </span>
+
+          {course.certifiedLink && course.certifiedLink.length > 0 && (
+            <CertificateButton certifiedLink={course.certifiedLink} />
+          )}
         </div>
 
         {course.projectName && course.projectName.length > 0 && (
