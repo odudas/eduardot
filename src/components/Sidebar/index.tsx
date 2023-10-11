@@ -1,7 +1,8 @@
+import { Github, Linkedin, MessageCircle } from 'lucide-react'
+
 import { Logo } from './Logo'
 import { Profile } from './Profile'
 import { SocialMediaItem } from './SocialMediaItem'
-import { Github, Linkedin } from 'lucide-react'
 
 export function Sidebar() {
   return (
@@ -22,6 +23,18 @@ export function Sidebar() {
           socialMediaLink="https://www.linkedin.com/in/eduardotdev/"
         />
       </nav>
+
+      <a
+        href="https://wa.me/5511919213184"
+        target="_blank"
+        rel="noreferrer"
+        className="group flex items-center justify-center gap-2 rounded-lg border-2 border-zinc-400 px-3 py-2 font-semibold hover:bg-green-100"
+      >
+        <MessageCircle className="text-zinc-700 group-hover:text-green-500" />
+        <span className="text-zinc-700 group-hover:text-zinc-700">
+          WhatsApp
+        </span>
+      </a>
     </aside>
   )
 }
