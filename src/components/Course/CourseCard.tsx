@@ -14,7 +14,7 @@ export interface Course {
   education: string
   trail: string
   duration: string
-  certifiedLink: string
+  certifiedLink?: string
   projectName?: string[]
   projectFigma?: string[]
   projectGitHub?: string[]
