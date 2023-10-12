@@ -78,14 +78,7 @@ export const courses = [
       'https://github.com/odudas/igniteReact-projeto_05',
       'https://github.com/odudas/igniteReact-projeto_06',
     ],
-    projectDeploy: [
-      'https://odudas.github.io/igniteReact-projeto_01/',
-      'https://odudas.github.io/igniteReact-projeto_02/',
-      'https://odudas.github.io/igniteReact-projeto_03/',
-      'https://odudas.github.io/igniteReact-projeto_04/',
-      'https://odudas.github.io/igniteReact-projeto_05/',
-      'https://odudas.github.io/igniteReact-projeto_06/',
-    ],
+    projectDeploy: [],
   },
 
   // ALURA
