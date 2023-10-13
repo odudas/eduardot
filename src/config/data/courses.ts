@@ -18,12 +18,9 @@ export const courses = [
     trail: 'Ignite React Native',
     duration: 'jun. 2023 - dez. 2023',
 
-    projectName: ["Projeto #01 - I'm Here ", 'Projeto #02 - Ignite Teams'],
+    projectName: ["Projeto #01 - I'm Here "],
 
-    projectFigma: [
-      '',
-      'https://www.figma.com/file/ke9DZTwVGXni6kq4Jqvq3F/Ignite-Teams?type=design&t=7GnJUruVHR0rcUHn-6',
-    ],
+    projectFigma: [''],
 
     projectGitHub: ['https://github.com/odudas/igniteReactNative-projeto_01'],
   },
