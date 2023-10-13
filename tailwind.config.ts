@@ -8,6 +8,10 @@ const config: Config = {
         app: 'minmax(18rem, 20rem) 1fr',
       },
 
+      width: {
+        120: '30rem',
+      },
+
       keyframes: {
         open: {
           from: { opacity: '0', transform: 'translateY(-20px)' },

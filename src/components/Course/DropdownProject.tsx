@@ -27,11 +27,11 @@ export function DropdownProject({
               rel="noreferrer"
               className="font-medium text-blue-500 group-hover:text-amber-700"
             >
-              Clique aqui
-            </a>{' '}
-            <span className="text-zinc-800">
-              para acessar o design deste projeto.
-            </span>
+              Clique aqui{' '}
+              <span className="text-zinc-800">
+                para acessar o design deste projeto.
+              </span>
+            </a>
           </li>
         )}
 

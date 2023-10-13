@@ -3,7 +3,7 @@ import { MyProjects } from '@/components/MyProjects'
 export default function Projects() {
   return (
     <>
-      <div className="mb-4">
+      <div className="mb-8">
         <h1 className="text-2xl font-bold">
           Cada projeto é um novo aprendizado!
         </h1>
@@ -13,7 +13,9 @@ export default function Projects() {
         </span>
       </div>
 
-      <MyProjects />
+      <div className="flex items-center justify-center">
+        <MyProjects />
+      </div>
     </>
   )
 }
