@@ -3,7 +3,7 @@ import { Clipboard } from 'lucide-react'
 export default function Experiences() {
   return (
     <>
-      <div className="flex flex-col items-center justify-center gap-4 text-center">
+      <div className="flex items-center justify-center gap-4 text-center">
         <div>
           <h3 className="text-xl font-bold text-zinc-700">
             Ainda não possuo nenhuma experiência profissional como dev
