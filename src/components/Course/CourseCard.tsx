@@ -40,13 +40,13 @@ export function CourseCard({ course }: CourseCardProps) {
         />
 
         <div className="col flex flex-col">
-          <h2 className="text-2xl font-bold text-zinc-800">
+          <h2 className="text-xl font-bold text-zinc-800 lg:text-2xl">
             {course.institutionName}
           </h2>
-          <p className="text-lg">
+          <p className="text-base lg:text-lg">
             {course.education} - <strong>{course.trail}</strong>
           </p>
-          <span className="text-sm font-medium text-zinc-600">
+          <span className="text-xs font-medium text-zinc-600 lg:text-sm">
             {course.duration}
           </span>
 
@@ -58,9 +58,9 @@ export function CourseCard({ course }: CourseCardProps) {
         {course.projectName && course.projectName.length > 0 && (
           <Collapsible.Trigger className="absolute right-0 top-0 ml-auto h-full cursor-pointer rounded-r-lg bg-zinc-200 px-1 hover:bg-zinc-300 data-[state=open]:bg-amber-600">
             {open ? (
-              <ChevronUp className="h-8 w-8 text-amber-900" />
+              <ChevronUp className="h-5 w-5 text-amber-900 lg:h-8 lg:w-8" />
             ) : (
-              <ChevronDown className="h-8 w-8 text-zinc-700" />
+              <ChevronDown className=" h-5 w-5 text-zinc-700 lg:h-8 lg:w-8" />
             )}
           </Collapsible.Trigger>
         )}

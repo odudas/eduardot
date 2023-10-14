@@ -9,7 +9,7 @@ export function AboutMe() {
         - SP. Me interreso por assuntos relacionados a tecnologia desde os 9
         anos, quando ganhei o meu primeiro notebook. Desde então sempre fui
         muito curioso e comecei a aprender com pequenos tutoriais no YouTube e
-        fui me apaixonando cada vez por mais tecnologia até começar a me
+        fui me apaixonando cada vez mais por mais tecnologia até começar a me
         interessar por desenvolvimento de software.
       </Paragraph>
       <Paragraph>
