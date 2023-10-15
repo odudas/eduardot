@@ -3,7 +3,9 @@ import { Paragraph } from './Paragraph'
 export function AboutMe() {
   return (
     <section className="space-y-3">
-      <h1 className="text-3xl font-semibold text-zinc-800">Eduardo Tavares</h1>
+      <h1 className="text-2xl font-semibold text-zinc-800 lg:text-3xl">
+        Eduardo Tavares
+      </h1>
       <Paragraph>
         Meu nome é Eduardo Tavares dos Santos, nasci em 2003 e sou de São Paulo
         - SP. Me interreso por assuntos relacionados a tecnologia desde os 9
