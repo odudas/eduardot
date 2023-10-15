@@ -31,22 +31,24 @@ export function CourseCard({ course }: CourseCardProps) {
   return (
     <Collapsible.Root open={open} onOpenChange={setOpen}>
       <div className="relative my-5 flex gap-4 rounded-lg bg-zinc-100 px-5 py-5 shadow-md">
-        <Image
-          src={`/courses/${course.institutionLogo}`}
-          alt={course.alt}
-          width={128}
-          height={128}
-          className="rounded-md shadow-md"
-        />
+        <div className="aspect-square w-20 lg:w-32">
+          <Image
+            src={`/courses/${course.institutionLogo}`}
+            alt={course.alt}
+            width={128}
+            height={128}
+            className="rounded-md shadow-md"
+          />
+        </div>
 
         <div className="col flex flex-col">
-          <h2 className="text-xl font-bold text-zinc-800 lg:text-2xl">
+          <h2 className="text-base font-bold text-zinc-800 lg:text-2xl">
             {course.institutionName}
           </h2>
-          <p className="text-base lg:text-lg">
+          <p className="text-sm lg:text-lg">
             {course.education} - <strong>{course.trail}</strong>
           </p>
-          <span className="text-xs font-medium text-zinc-600 lg:text-sm">
+          <span className="mb-2 text-xs font-medium text-zinc-600 lg:mb-0 lg:text-sm">
             {course.duration}
           </span>
 
@@ -58,9 +60,9 @@ export function CourseCard({ course }: CourseCardProps) {
         {course.projectName && course.projectName.length > 0 && (
           <Collapsible.Trigger className="absolute right-0 top-0 ml-auto h-full cursor-pointer rounded-r-lg bg-zinc-200 px-1 hover:bg-zinc-300 data-[state=open]:bg-amber-600">
             {open ? (
-              <ChevronUp className="h-5 w-5 text-amber-900 lg:h-8 lg:w-8" />
+              <ChevronUp className="h-4 w-4 text-amber-900 lg:h-8 lg:w-8" />
             ) : (
-              <ChevronDown className=" h-5 w-5 text-zinc-700 lg:h-8 lg:w-8" />
+              <ChevronDown className=" h-4 w-4 text-zinc-700 lg:h-8 lg:w-8" />
             )}
           </Collapsible.Trigger>
         )}
@@ -68,7 +70,7 @@ export function CourseCard({ course }: CourseCardProps) {
 
       <Collapsible.Content className="animate-open">
         {course.projectName && course.projectName.length > 0 && (
-          <div className="grid grid-cols-2">
+          <div className="grid lg:grid-cols-2">
             {course.projectName.map((project, index) => (
               <DropdownProject
                 key={project}
