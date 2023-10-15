@@ -8,7 +8,7 @@ export function MySkills() {
         Minhas Habilidades
       </h2>
 
-      <div className="flex flex-wrap gap-2 lg:gap-4">
+      <div className="flex flex-wrap gap-4">
         {skills.map((skill) => (
           <SkillCard key={skill.id} skill={skill} />
         ))}
