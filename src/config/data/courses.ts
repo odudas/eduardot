@@ -36,7 +36,11 @@ export const courses = [
 
     projectName: [
       'Projeto #01 - Fundamentos do Node.Js ',
-      'Projeto #02 - Criando API REST com Node.Js',
+      'Projeto #03 - API Node.Js com SOLID',
+    ],
+    projectGitHub: [
+      'https://github.com/odudas/igniteNode-projeto_01',
+      'https://github.com/odudas/igniteNode-projeto_03',
     ],
   },
 
@@ -76,6 +80,57 @@ export const courses = [
       'https://github.com/odudas/igniteReact-projeto_06',
     ],
     projectDeploy: [],
+  },
+
+  // Rocketseat EXPLORER
+  {
+    institutionLogo: 'rocketseat.png',
+    alt: 'Logo da Rocketseat, um quadrado preto com bordas levemente arredondadas e um foguete roxo ao centro deste quadrado.',
+    institutionName: 'Rocketseat',
+    education: 'Curso complementar',
+    trail: 'Explorer',
+    duration: 'jun. 2023 - dez. 2023',
+
+    projectName: [
+      'Projeto #01 - Ambientes únicos para você',
+      'Projeto #02 - Treine.me',
+      'Projeto #03 - Crie e compartilhe o seu evento',
+      'Projeto #04 - Introdução à responsividade',
+      'Projeto #05 - Galeria Mobile First',
+      'Projeto #06 - Cheeesecake',
+      'Projeto #07 - Galaxies',
+      'Projeto #08 - Fotoblog',
+    ],
+    projectFigma: [
+      'https://www.figma.com/file/nAaV62GGK19wxkiy0qhKRL/Ambientes-%C3%BAnicos-para-voc%C3%AA!?type=design&t=yjdVW2vO4QGxfaHW-6',
+      'https://www.figma.com/file/a3RXym6dliMrrjkJmixTl5/Treine.me?type=design&t=qMzUjTZKKuWVZSTf-6',
+      'https://www.figma.com/file/A5ACAkAXOMagAobfUPAELZ/Crie-e-compartilhe-o-seu-evento?type=design&t=yjdVW2vO4QGxfaHW-6',
+      'https://www.figma.com/file/xUwkiEgRFjGej1JWpY9827/Introdu%C3%A7%C3%A3o-%C3%A0-responsividade?type=design&t=uqgE1EA94N3PbKsG-6',
+      'https://www.figma.com/file/Q0ZMYrwaM8W8FchnoN5qtk/Galeria-de-Trabalhos?type=design&t=A8d3PzgjBnAiFhGZ-6',
+      'https://www.figma.com/file/tVbmTfuJCWVEGED6V6HQG9/Cheesecake?type=design&t=YX33hcJevMsm2sBn-6',
+      'https://www.figma.com/file/kf22VHY6zsso5XADaSs1V2/Galaxies?type=design&t=B5a59vYHi3uSczWU-6',
+      'https://www.figma.com/file/QLpDqOQpOJg3NG956zgZZB/Fotoblog?type=design&t=M3JiRMO9B4Q8TaQw-6',
+    ],
+    projectGitHub: [
+      'https://github.com/odudas/explorer-projeto_01',
+      'https://github.com/odudas/explorer-projeto_02',
+      'https://github.com/odudas/explorer-projeto_03',
+      'https://github.com/odudas/explorer-projeto_04',
+      'https://github.com/odudas/explorer-projeto_05',
+      'https://github.com/odudas/explorer-projeto_06',
+      'https://github.com/odudas/explorer-projeto_07',
+      'https://github.com/odudas/explorer-projeto_08',
+    ],
+    projectDeploy: [
+      'https://odudas.github.io/explorer-projeto_01',
+      'https://odudas.github.io/explorer-projeto_02',
+      'https://odudas.github.io/explorer-projeto_03',
+      'https://odudas.github.io/explorer-projeto_04',
+      'https://odudas.github.io/explorer-projeto_05',
+      'https://odudas.github.io/explorer-projeto_06',
+      'https://odudas.github.io/explorer-projeto_07',
+      'https://odudas.github.io/explorer-projeto_08',
+    ],
   },
 
   // ALURA
