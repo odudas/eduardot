@@ -3,7 +3,7 @@ import { ProjectCard } from './ProjectCard'
 
 export function MyProjects() {
   return (
-    <section className="mt-6 space-y-2">
+    <section className="mt-4 space-y-2">
       <div className="flex flex-col justify-end gap-4">
         {projects.map((project) => (
           <ProjectCard key={project.id} projectCard={project} />
