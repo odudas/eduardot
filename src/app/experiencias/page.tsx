@@ -5,7 +5,7 @@ export default function Experiences() {
     <>
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4 text-center lg:mt-0">
         <div>
-          <h3 className="text-xl font-bold text-zinc-700">
+          <h3 className="text-xl font-bold text-zinc-800">
             Ainda não possuo nenhuma experiência profissional como dev
           </h3>
           <span className="font-medium text-zinc-500">
