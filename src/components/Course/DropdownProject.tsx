@@ -21,31 +21,31 @@ export function DropdownProject({
         {projectFigma && projectFigma.length > 0 && (
           <li className="group flex items-center gap-2">
             <Figma className="h-5 w-5 group-hover:text-amber-700" />
-            <a
-              href={projectFigma}
-              target="_blank"
-              rel="noreferrer"
-              className="font-medium text-blue-500 group-hover:text-amber-700"
-            >
-              Clique aqui{' '}
-              <span className="text-zinc-800">
-                para acessar o design deste projeto.
-              </span>
-            </a>
+            <span className="text-sm text-zinc-800 lg:text-base">
+              <a
+                href={projectFigma}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm font-medium text-blue-500 group-hover:text-amber-700 lg:text-base"
+              >
+                Clique aqui{' '}
+              </a>
+              para acessar o design deste projeto.
+            </span>
           </li>
         )}
 
         <li className="group flex items-center gap-2">
           <Github className="h-5 w-5 group-hover:text-amber-700" />
-          <span>
+          <span className="text-sm text-zinc-800 lg:text-base">
             <a
               href={projectGitHub}
               target="_blank"
               rel="noreferrer"
-              className="font-medium text-blue-500 group-hover:text-amber-700"
+              className="text-sm font-medium text-blue-500 group-hover:text-amber-700 lg:text-base"
             >
-              Clique aqui
-            </a>{' '}
+              Clique aqui{' '}
+            </a>
             para acessar o código deste projeto.
           </span>
         </li>
@@ -53,15 +53,15 @@ export function DropdownProject({
         {projectDeploy && projectDeploy.length > 0 && (
           <li className="group flex items-center gap-2">
             <Layout className="h-5 w-5 group-hover:text-amber-700" />
-            <span>
+            <span className="text-sm text-zinc-800 lg:text-base">
               <a
                 href={projectDeploy}
                 target="_blank"
                 rel="noreferrer"
-                className="font-medium text-blue-500 group-hover:text-amber-700"
+                className="text-sm font-medium text-blue-500 group-hover:text-amber-700 lg:text-base"
               >
-                Clique aqui
-              </a>{' '}
+                Clique aqui{' '}
+              </a>
               para acessar o deploy deste projeto.
             </span>
           </li>

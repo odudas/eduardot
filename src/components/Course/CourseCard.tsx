@@ -46,7 +46,8 @@ export function CourseCard({ course }: CourseCardProps) {
             {course.institutionName}
           </h2>
           <p className="text-sm lg:text-lg">
-            {course.education} - <strong>{course.trail}</strong>
+            {course.education} -{' '}
+            <strong className="block lg:inline">{course.trail}</strong>
           </p>
           <span className="mb-2 text-xs font-medium text-zinc-600 lg:mb-0 lg:text-sm">
             {course.duration}
