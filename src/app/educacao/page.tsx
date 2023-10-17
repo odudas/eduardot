@@ -4,7 +4,7 @@ export default function Education() {
   return (
     <>
       <div>
-        <h3 className="text-2xl font-bold">
+        <h3 className="text-2xl font-bold text-zinc-950">
           Universidade e Cursos Complementares
         </h3>
         <span className="text-sm font-medium text-zinc-700">

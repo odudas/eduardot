@@ -15,13 +15,15 @@ export function DropdownProject({
 }: DropdownProjectProps) {
   return (
     <div className="mt-4 border-t border-gray-300 pt-2">
-      <h3 className="mb-5 mt-2 text-lg font-semibold">{projectName}</h3>
+      <h3 className="mb-5 mt-2 text-lg font-semibold text-zinc-950">
+        {projectName}
+      </h3>
 
       <ul className="space-y-2">
         {projectFigma && projectFigma.length > 0 && (
           <li className="group flex items-center gap-2">
             <Figma className="h-5 w-5 group-hover:text-amber-700" />
-            <span className="text-sm text-zinc-800 lg:text-base">
+            <span className="text-sm text-zinc-950 lg:text-base">
               <a
                 href={projectFigma}
                 target="_blank"
@@ -37,7 +39,7 @@ export function DropdownProject({
 
         <li className="group flex items-center gap-2">
           <Github className="h-5 w-5 group-hover:text-amber-700" />
-          <span className="text-sm text-zinc-800 lg:text-base">
+          <span className="text-sm text-zinc-950 lg:text-base">
             <a
               href={projectGitHub}
               target="_blank"
@@ -53,7 +55,7 @@ export function DropdownProject({
         {projectDeploy && projectDeploy.length > 0 && (
           <li className="group flex items-center gap-2">
             <Layout className="h-5 w-5 group-hover:text-amber-700" />
-            <span className="text-sm text-zinc-800 lg:text-base">
+            <span className="text-sm text-zinc-950 lg:text-base">
               <a
                 href={projectDeploy}
                 target="_blank"

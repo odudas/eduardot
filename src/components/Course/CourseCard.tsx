@@ -42,12 +42,14 @@ export function CourseCard({ course }: CourseCardProps) {
         </div>
 
         <div className="col flex flex-col">
-          <h2 className="text-base font-bold text-zinc-800 lg:text-2xl">
+          <h2 className="text-base font-bold text-zinc-950 lg:text-2xl">
             {course.institutionName}
           </h2>
-          <p className="text-sm lg:text-lg">
+          <p className="text-sm text-zinc-950 lg:text-lg">
             {course.education} -{' '}
-            <strong className="block lg:inline">{course.trail}</strong>
+            <strong className="block text-zinc-950 lg:inline">
+              {course.trail}
+            </strong>
           </p>
           <span className="mb-2 text-xs font-medium text-zinc-600 lg:mb-0 lg:text-sm">
             {course.duration}

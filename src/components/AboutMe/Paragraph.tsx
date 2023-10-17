@@ -4,6 +4,6 @@ export interface ParagraphProps {
 
 export function Paragraph({ children }: ParagraphProps) {
   return (
-    <p className="text-justify text-sm text-zinc-800 lg:text-lg">{children}</p>
+    <p className="text-justify text-sm text-zinc-950 lg:text-lg">{children}</p>
   )
 }

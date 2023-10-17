@@ -3,7 +3,7 @@ import { Paragraph } from './Paragraph'
 export function AboutMe() {
   return (
     <section className="space-y-2">
-      <h1 className="text-2xl font-semibold text-zinc-800 lg:text-3xl">
+      <h1 className="text-2xl font-semibold text-zinc-950 lg:text-3xl">
         Eduardo Tavares
       </h1>
 

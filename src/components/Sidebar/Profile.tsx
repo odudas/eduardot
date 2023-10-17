@@ -11,7 +11,7 @@ export function Profile() {
         className="h-72 w-60 rounded-xl shadow-sm"
       />
 
-      <strong className="mt-2 text-lg">Eduardo Tavares</strong>
+      <strong className="mt-2 text-lg text-zinc-950">Eduardo Tavares</strong>
       <TypewriterEffect />
     </div>
   )

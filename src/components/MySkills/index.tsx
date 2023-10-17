@@ -4,7 +4,7 @@ import { SkillCard } from './SkillCard'
 export function MySkills() {
   return (
     <section className="mt-6 space-y-2">
-      <h2 className="mb-4 text-xl font-semibold lg:text-2xl">
+      <h2 className="mb-4 text-xl font-semibold text-zinc-950 lg:text-2xl">
         Minhas Habilidades
       </h2>
 
