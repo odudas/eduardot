@@ -35,19 +35,12 @@ export function Sidebar() {
             socialMediaName="Linkedin"
             socialMediaLink="https://www.linkedin.com/in/eduardotdev/"
           />
+          <SocialMediaItem
+            icon={MessageCircle}
+            socialMediaName="WhatsApp"
+            socialMediaLink="https://wa.me/5511919213184"
+          />
         </nav>
-
-        <a
-          href="https://wa.me/5511919213184"
-          target="_blank"
-          rel="noreferrer"
-          className="group flex items-center justify-center gap-2 rounded-lg border-2 border-zinc-400 px-3 py-2 font-semibold hover:bg-emerald-50"
-        >
-          <MessageCircle className="text-zinc-600 group-hover:text-green-600" />
-          <span className="text-zinc-950 group-hover:text-green-600">
-            WhatsApp
-          </span>
-        </a>
       </Collapsible.Content>
     </Collapsible.Root>
   )
