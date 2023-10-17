@@ -19,11 +19,11 @@ export function SocialMediaItem({
       rel="noreferrer"
       className="group flex items-center gap-3 rounded px-3 py-2 hover:bg-amber-50"
     >
-      <Icon className="h-5 w-5 text-zinc-500" />
-      <span className="font-medium text-zinc-700 group-hover:text-amber-700">
+      <Icon className="h-5 w-5 text-zinc-600" />
+      <span className="font-medium text-zinc-950 group-hover:text-amber-700">
         {socialMediaName}
       </span>
-      <ExternalLink className="ml-auto h-5 w-5 text-zinc-400 group-hover:text-amber-700" />
+      <ExternalLink className="ml-auto h-5 w-5 text-zinc-500 group-hover:text-amber-700" />
     </a>
   )
 }

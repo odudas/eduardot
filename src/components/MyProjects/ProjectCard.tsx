@@ -24,10 +24,10 @@ export function ProjectCard({ projectCard }: ProjectCardProps) {
       </div>
 
       <div className="w-120 flex-col text-center">
-        <h2 className="text-base font-bold text-zinc-800 lg:text-lg">
+        <h2 className="text-base font-bold text-zinc-950 lg:text-lg">
           {projectCard.projectName}
         </h2>
-        <p className="mb-2 text-sm text-zinc-800 lg:text-base">
+        <p className="mb-2 text-sm text-zinc-950 lg:text-base">
           {projectCard.projectDescription}
         </p>
 
@@ -36,7 +36,7 @@ export function ProjectCard({ projectCard }: ProjectCardProps) {
             {projectCard.projectSkills.map((projectSkill, id) => (
               <span
                 key={id}
-                className="w-fit rounded-md border-2 border-zinc-500 px-2 py-0.5 text-xs font-medium lg:text-sm"
+                className="w-fit rounded-md border-2 border-zinc-600 px-2 py-0.5 text-xs font-medium text-zinc-950 shadow-md lg:text-sm"
               >
                 {projectSkill}
               </span>
